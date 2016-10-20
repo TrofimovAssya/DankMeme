@@ -53,11 +53,11 @@ X_train = numpy.asarray([[word_to_index[w] for w in sent[:-1]] for sent in token
 y_train = numpy.asarray([[word_to_index[w] for w in sent[1:]] for sent in tokenized_sentences])
 
 
-# pickle.dump(tokenized_sentences,open("tokenized_sentences","wb"))
-# pickle.dump(word_to_index,open("word_to_index","wb"))
-# pickle.dump(index_to_word,open("index_to_word","wb"))
-# numpy.save("insoviet_x",X_train)
-# numpy.save("insoviet_y",y_train)
+pickle.dump(tokenized_sentences,open("tokenized_sentences","wb"))
+pickle.dump(word_to_index,open("word_to_index","wb"))
+pickle.dump(index_to_word,open("index_to_word","wb"))
+numpy.save("insoviet_x",X_train)
+numpy.save("insoviet_y",y_train)
 
 
 
