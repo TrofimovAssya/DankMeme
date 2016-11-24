@@ -9,8 +9,8 @@ import cPickle as pickle
 
 
 meme_corpus = []
-
-for i in xrange(1001,2000):
+#first 1000 pages of meme text
+for i in xrange(1,1000):
     print ("page " + str(i))
     page = requests.get("https://memegenerator.net/The-Most-Interesting-Man-In-The-World/images/popular/alltime/page/"+str(i))
     print(page.status_code)
