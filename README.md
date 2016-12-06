@@ -9,5 +9,6 @@ I used only
 #Step two: Build LSTM and generate (dank) memes.
 ![Alt text](./first_meme_soviet_russia.jpg?raw=true "first meme")
 First meme - damn, so inspired.
-
+![Alt text](./second_meme_soviet_russia.jpg?raw=true "second meme")
+Getting better: It seems we got over our obcession with the letter "M"
 TODO: get better
